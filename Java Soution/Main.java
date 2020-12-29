@@ -125,6 +125,7 @@ public class Main
         }catch(Exception e){
             System.out.println(e);
         }
+        
 	   createKey c1=new createKey("navin","r");
 	    try{
             Thread.sleep(9000);
@@ -160,7 +161,11 @@ public class Main
             System.out.println(e);
         }
 	   c4.start();
-	   
+           c.stop();
+           c1.stop();
+           c2.stop();
+	   c3.stop()
+           c4.stop();
 	   
 	   
 	}

@@ -155,17 +155,14 @@ public class Main
 	   
 	    //create a key with value without TTL property
 	    createKey c4=new createKey("balaji","r");
+            c4.start();
 	    try{
             Thread.sleep(9000);
         }catch(Exception e){
             System.out.println(e);
         }
-	   c4.start();
-           c.stop();
-           c1.stop();
-           c2.stop();
-	   c3.stop();
-           c4.stop();
+	    c4.stop();
+          
 	   
 	   
 	}

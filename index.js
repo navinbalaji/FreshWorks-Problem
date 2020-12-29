@@ -1,6 +1,5 @@
 const myFunction=require('./Sample');
 
-
 //create a key with keyname, value and TTL property 
 myFunction.createKey("dinesh",'my secret key',3600);
 

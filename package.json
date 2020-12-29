@@ -1,0 +1,15 @@
+{
+  "name": "freshworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Navin",
+  "license": "ISC",
+  "dependencies": {
+    "threads": "^1.6.3",
+    "worker-thread": "^1.1.0"
+  }
+}
